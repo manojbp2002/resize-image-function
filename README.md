@@ -19,26 +19,14 @@ This project is a serverless application built using AWS Lambda with Node.js to 
 - **Amazon S3**: Used to store the original and resized images.
 - **AWS IAM**: Configured roles and permissions to securely manage access to S3 and Lambda.
 - **Node.js**: Used to write the Lambda function
-
-## Prerequisites
-- AWS Account with appropriate permissions to create and manage S3 buckets and Lambda functions.
-- Basic knowledge of Node.js and AWS services.
-- Familiarity with AWS CLI (optional).
-
-## Project Structure
-```
-├── index.js             # Node.js script for the Lambda function
-├── package.json         # Node.js dependencies
-├── package-lock.json    # Node.js lock file for dependencies
-└── README.md            # Project documentation
-```
+  
 
 ## Setup Instructions
 
 ### 1. Create an S3 Bucket
 1. Sign in to your AWS Management Console.
-2. Go to **S3** and create a new bucket (e.g., `my-image-bucket`).
-3. Enable the bucket to trigger Lambda functions on object creation.
+2. Go to **S3** and create a new bucket.
+4. Enable the bucket to trigger Lambda functions on object creation.
 
 ### 2. Configure AWS Lambda
 1. Navigate to the **Lambda** service in the AWS Management Console.
